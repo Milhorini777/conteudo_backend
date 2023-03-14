@@ -49,10 +49,10 @@
 
 
         //vetor de notas
-        $A = array(5,6,8);
+        $notas = array(5,6,8);
         //como calcular a média de notas do vetor?
-        $media = ($A[0] + $A[1] + $A[2]) / 3;
+        $media = 
+        
         //imprimir a média
             echo $media
-    
-    /?>
+    ?>
