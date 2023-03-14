@@ -16,12 +16,19 @@
     <?php
 
     $alunos = [
-        "nome" => "Ariel",
-        "nota1" => 10,
+        "nome" => "Sasa",
+        "nota1" => 7,
         "nota2" => 8,
-        "total" => [10] + [8]
+        "total" => [7] + [8]
     ];
 
-    echo $alunos["total"];
+    $alunos["notaTotal"] = ($alunos["nota1"] + $alunos["nota2"]);
+    var_dump($alunos);
+
+    //imprimir todos os valores de um vetor
+    //utilizando o foreach
+    foreach($alunos as $key => $value){
+        echo "$value <br>";
+    }
 
 ?>
