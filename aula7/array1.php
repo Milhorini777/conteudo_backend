@@ -34,6 +34,7 @@
 
     <?php
 
+       
         $variavel = ["Maça", "Uva", "Pera", "Laranja"];
         var_dump($variavel);
             
@@ -54,5 +55,6 @@
         $media = 
         
         //imprimir a média
-            echo $media
+           echo $media
+    
     ?>
