@@ -53,6 +53,6 @@
         //como calcular a média de notas do vetor?
         $media = ($A[0] + $A[1] + $A[2]) / 3;
         //imprimir a média
-
             echo $media
-    ?>
+    
+    /?>
