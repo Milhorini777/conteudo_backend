@@ -34,3 +34,28 @@
     $variavel[2] = "Pera";
     $variavel[3] = "Laranja";
 </pre>
+
+<?php
+
+        $variavel = ["Maça", "Uva", "Pera", "Laranja"];
+        var_dump($variavel);
+            
+        echo "<p> &nbsp;</p>";
+            echo $variavel[0] . "<br>";
+            echo $variavel[1] . "<br>";
+            echo $variavel[2] . "<br>";
+            echo $variavel[3] . "<br>";
+            
+        for($i = 0; $i < count($variavel); $i++){
+            echo $variavel[$i] . "<br>";
+        }
+
+
+        //vetor de notas
+        $notas = array(5,6,8);
+        //como calcular a média de notas do vetor?
+        $media = 
+        
+        //imprimir a média
+            echo $media
+    ?>
