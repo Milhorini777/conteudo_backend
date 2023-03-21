@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Produtos</h1>
+    <h1> Produtos </h1>
     <hr>
 
-    <table id="produtos" border=1 with="100%">
-    </table>
+    
+        
+        <table id="produtos" border=1 width="100%">
+            
+        </table>
 
-    <script>
-        //está pegando o elemento tabela do HTML
-        let table = document.querySelector("#produtos");
+        <script>
+            //está pegando o elemento tabela do HTML
+            let tabela = document.querySelector("#produtos");
 
-        //vamos criar uma linha nessa tabela
-        let linha = tabela.insertRow();
+            //vamos criar uma linha nessa tabela
+            let linha = tabela.insertRow();
 
-        //vamos criar as células na tabela
-        let celNome = linha.insertCell();
-        let celMarca = linha.insertCell();
-        let celPreço = linha.insertCell();
+            //vamos criar células na tabela
+            let celnome = linha.insertCell();
+            let celmarca = linha.insertCell();
+            let celpreço = linha.insertCell();
 
-        //coloca valores nas células
-        celNome.innerHTML = "xxxx";
-        celMarca.innerHTML = "xxxx";
-        celPreço.innerHTML = "xxxx";
-
-    </script>
-
+            //coloca valores nas células
+            celnome.innerHTML = "xxxx";
+            celmarca.innerHTML = "xxxx";
+            celpreço.innerHTML = "xxxx";
+        </script>
+    
 </body>
 </html>
