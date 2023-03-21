@@ -10,22 +10,22 @@
 
         <?php
             $produto1 = [
-                        "nome" => "Câmera",
-                        "marca" => "LG",
-                        "preço" => 2500
-                        ];
+                            "nome" => "Câmera",
+                            "marca" => "LG",
+                            "preço" => 2500
+                            ];
             
             $produto2 = [
-                        "nome" => "Notebook",
-                        "marca" => "Dell",
-                        "preço" => 7500
-                        ];
+                            "nome" => "Notebook",
+                            "marca" => "Dell",
+                            "preço" => 7500
+                            ];
 
             $produto3 = [
-                        "nome" => "Smartphone",
-                        "marca" => "Samsung",
-                        "preço" => 3500
-                        ];
+                            "nome" => "Smartphone",
+                            "marca" => "Samsung",
+                            "preço" => 3500
+                            ];
 
 
                 $produtos = [
@@ -41,7 +41,20 @@
                     echo $value. "<br>";
                 }
             }
-
+               echo  "<br>";
+                 
+            
+            echo "<table border=1>";
             //outra forma
+            foreach($produtos as $produto){
+                echo "<tr>";
+                echo "<td>" . $produto["nome"] . "</td>";
+                echo "<td>" . $produto["marca"] . "</td>";
+                echo "<td>" . $produto["preço"] . "</td>";
+                echo "</tr>";
+            }
+            echo "</table>";
+
+
 
         ?>
