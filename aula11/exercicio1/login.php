@@ -1,4 +1,4 @@
-<h1> bico sujo </h1>
+<h1> Acesso Restrito </h1>
 
 <?php
 
