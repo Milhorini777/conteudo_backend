@@ -19,7 +19,7 @@
         <input type="text" name="login"><br>
 
         <label>Senha</label><br>
-        <input type="text" name="senha"><br>
+        <input type="password" name="senha"><br>
 
 
 </form>
