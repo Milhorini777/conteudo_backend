@@ -84,3 +84,4 @@ if (isset($_GET["assunto"])){
         return $noticia["assunto"] == $assunto
     });
     }
+?>
