@@ -1,3 +1,7 @@
+<?php
+        require_once "usuario/consulta_por_id.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
