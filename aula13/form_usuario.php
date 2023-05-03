@@ -10,7 +10,7 @@
     <h1>Cadastro de usuário</h1>
     <hr>
 
-    <form action="usuario/inserir.php"method="post">
+    <form action="usuario/inserir.php" method="post">
         
         <label>Nome</label><br>
         <input type="text" name="nome"><br>
@@ -21,11 +21,11 @@
         <label>Senha</label><br>
         <input type="password" name="senha"><br>
 
-        <button types="submit">Cadastrar</button>
+        <button type="submit">Inserir</button>
+        
+    </form>
 
 
-</form>
-
-
+    
 </body>
 </html>
