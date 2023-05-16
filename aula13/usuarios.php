@@ -13,8 +13,8 @@
     <h1>usuarios</h1>
     <hr>
 
-    <a href="form_usuario.php" class="btn btn-sucess">
-        incerir novo
+    <a href="form_usuario.php" class="btn btn-success">
+        inserir novo
 </a>
 
     <table class="table">
@@ -30,7 +30,15 @@
   <tr>
         <td><?=  $usuario->nome?></td>
         <td><?=  $usuario->login?></td>
-        <td>u8</td>
+        <td>
+          <a href="usuario/excluir.php?id=<?= $usuario-> idusuario ?>" class="btn btn-danger">  
+            <i class="fa-solid fa-trash"></i> 
+              Excluir </a>
+            
+              <a href="form_usuario.php?id=<?= $usuario->idusuario ?>" class="btn btn-primary"> 
+                <i class="fa-sharp fa-solid fa-pen-to-square"></i> 
+                  Atualizar </a>
+        </td>
     </tr>
     <?php endforeach; ?>
    
