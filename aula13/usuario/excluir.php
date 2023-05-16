@@ -19,12 +19,3 @@
 
    //volta para o formulário
    header("Location: ../form_usuario.php");
-
-   
-
-
-
-
-
-
-
