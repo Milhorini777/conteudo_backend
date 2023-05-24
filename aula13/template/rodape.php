@@ -8,3 +8,12 @@
 
   </body>
 </html>
+
+<hr>
+    
+<!--Rodape-->
+<footer class="bg-dark p-3 text-white texte-center">
+        Meus site de notícias @ 2023
+</footer>
+
+<!--Final do rodapé-->
