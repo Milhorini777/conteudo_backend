@@ -17,10 +17,10 @@
    $resultados = $comando->get_result();
 
    //pega a primeira linha do resultado da consulta
-   $usuarios = [];
-   while ($usuario = $resultados->fetch_object()){
+   $noticias = [];
+   while ($noticia = $resultados->fetch_object()){
 
-      $usuarios[] = $usuario;
+      $noticias[] = $noticia;
    }
 
 
