@@ -3,6 +3,7 @@
     require_once "../template/cabeçalho.php";
 ?>
 
+<!doctype html>
 
     <div class="container">
     <h1> Notícias </h1>
@@ -45,12 +46,11 @@
     </tr>
     <?php endforeach; ?> 
 
-  </body>
+  </tbody>
     </table>
     </div>
 
-   <?php require_once "../template/rodape.php"; ?>
-  
-    </html>
+    <?php require_once "../template/rodape.php" ?>
 
       
+</html>

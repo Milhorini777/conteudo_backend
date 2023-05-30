@@ -3,7 +3,7 @@
    //importa o arquivo de conexão
    require_once "../banco/conexao.php";
 
-   //verifica se foi enviada o param id pela url
+   //verifica se foi enviada o param id pela URL
    if(isset($_GET['id'])){
 
    $id = $_GET['id'];
@@ -23,7 +23,17 @@
    //pegar os resultados da consulta - todas as linhas de resultados
    $resultados = $comando->get_result();
 
-   //pega a primeira linha do resultado da consulta
-   $usuario = $resultados->fetch_object();
+   //pega a primeira linha de resultado da consulta
+   $noticia= $resultados->fetch_object();
 
-   }
+   
+
+}   
+   
+
+
+
+
+
+
+

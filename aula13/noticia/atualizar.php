@@ -20,7 +20,7 @@
    //executa o comando
    $comando->execute();
 
-   //volta para o formulário aaaaaaa
+   //volta para o formulário
    header("Location: index.php");
 
    

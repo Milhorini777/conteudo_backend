@@ -23,7 +23,7 @@
    $comando = $conexao->prepare($SQL);
 
    //faz a vinculação dos parâmetros ?, ?, ?
-   $comando->bind_param("ssss", $titulo, $materia, $categoria, $foto);
+   $comando->bind_param("ssss", $titulo, $materia, $categoria, $nome_foto);
 
    //executa o comando
    $comando->execute();

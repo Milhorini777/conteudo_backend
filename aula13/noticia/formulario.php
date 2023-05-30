@@ -1,5 +1,5 @@
 <?php
-        require_once "consulta_por_id.php";
+        require_once "consultar_por_id.php";
         require_once "../template/cabeçalho.php";
 ?>
 

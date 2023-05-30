@@ -2,8 +2,6 @@
     require_once "consultar_todos.php";
     require_once "../template/cabeçalho.php";
 ?>
-    
-    
     <div class="container">
     <h1>Usuários</h1>
     <hr>
@@ -49,4 +47,4 @@
     </table>
     </div>
 
-    <?php require_once "../template/rodape.php" ?>
+     <?php require_once "../template/rodape.php"; ?>

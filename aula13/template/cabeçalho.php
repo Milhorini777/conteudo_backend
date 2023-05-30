@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,6 +9,7 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
   </head>
+  
   <body>
 
   <!-- Carousel -->
@@ -22,13 +22,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <img src="../imagem/Pica-Pau (1).jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
       <img src="../imagem/picapau2 (1).jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="../imagem/pica-pau-3 (1).jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../imagem/Pica-Pau (1).jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
