@@ -13,17 +13,17 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-                <?php foreach($categorias as $c): ?>
+                <?php foreach($cursos as $c): ?>
                 <li class="nav-item">
-                        <a class="nav-link" href="index.php?assunto=<?php echo $c->categoria;?>">
-                        <?php echo $c->categoria; ?>
+                        <a class="nav-link" href="index.php?assunto=<?php echo $c->curso;?>">
+                        <?php echo $c->curso; ?>
                 </a>
                     </li>
                     <?php endforeach; ?>
 
                     <li class="nav-item">
                         <a class="nav-link" 
-                        href="../noticia/index.php">
+                        href="../estudante/index.php">
                        Acesso restrito
                 </a>
                     </li>

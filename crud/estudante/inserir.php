@@ -5,25 +5,26 @@
 
    //verifica se o nome, login e senha foram enviado
    //do formulário
-   if(isset($_POST['titulo']) && isset($_POST['materia']) &&
-     isset($_POST['categoria'])){
+   if(isset($_POST['nome']) && isset($_POST['idade']) &&
+     isset($_POST['curso']) && isset($_POST['universidade'])){
 
       //faz o upload da foto do usuário
       require_once "faz_upload.php";
 
-   $titulo = $_POST['titulo'];
-   $materia = $_POST['materia'];
-   $categoria = $_POST['categoria'];
+   $nome = $_POST['nome'];
+   $idade = $_POST['idade'];
+   $curso = $_POST['curso'];
+   $universidade = $_POST['universidade'];
    $foto = $nome_foto;
 
    //cria uma variável com um comando SQL
-   $SQL = "INSERT INTO `noticia` (`titulo`, `materia`, `categoria`, foto) VALUES (?, ?, ?, ?);";
+   $SQL = "INSERT INTO `estudante` (`nome`, `idade`, `curso`, `universidade`, foto) VALUES (?, ?, ?, ?, ?);";
  
    //prepara o comando para ser executado no mysql
    $comando = $conexao->prepare($SQL);
 
    //faz a vinculação dos parâmetros ?, ?, ?
-   $comando->bind_param("ssss", $titulo, $materia, $categoria, $foto);
+   $comando->bind_param("ssss", $nome, $idade, $curso, $universidade, $foto);
 
    //executa o comando
    $comando->execute();

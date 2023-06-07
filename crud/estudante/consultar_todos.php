@@ -4,7 +4,7 @@
    require_once "../banco/conexao.php"; 
 
    //cria uma variável com um comando SQL
-   $SQL = "SELECT distinct categoria FROM noticia";
+   $SQL = "SELECT * FROM estudante";
  
    //prepara o comando para ser executado no mysql
    $comando = $conexao->prepare($SQL);
@@ -16,8 +16,8 @@
 $resultados = $comando->get_result();
 
 //pega todas as linha de resultado da consulta
-$categorias = [];
-while ($c = $resultados->fetch_object()){
-   $categorias[] = $c;
+$estudantes = [];
+while ($estudante = $resultados->fetch_object()){
+   $estudantes[] = $estudante;
 }
 

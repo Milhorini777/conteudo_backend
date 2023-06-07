@@ -5,7 +5,7 @@
 ?>
 
     <div class="container">
-    <h1>Notícias</h1>
+    <h1>Estudantes</h1>
     <hr>
 
     <div class="text-end">
@@ -17,24 +17,28 @@
     <table class="table" id="tabela_dados">
       <thead>
         <tr>
-          <th scope="col">Título</th>
-          <th scope="col">Categoria</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Idade</th>
+          <th scope="col">Curso</th>
+          <th scope="col">Universidade</th>
           <th scope="col">Foto</th>
           <th scope="col">Ações</th>
     </tr>
          </thead>
   <tbody>
-    <?php foreach($noticias as $noticia): ?> 
+    <?php foreach($estudantes as $estudante): ?> 
     <tr>
-        <td><?= $noticia->titulo ?></td>
-        <td><?= $noticia->categoria ?></td>
-        <td><img src="../upload/<?= $noticia->foto ?>" height="25px"></td>
+        <td><?= $estudante->nome ?></td>
+        <td><?= $estudante->idade ?></td>
+        <td><?= $estudante->curso ?></td>
+        <td><?= $estudante->universidade ?></td>
+        <td><img src="../upload/<?= $estudante->foto ?>" height="25px"></td>
         <td class="text-end" width="25%">
-        <a href="formulario.php?id=<?= $noticia->idnoticia ?>" class="btn btn-primary">
+        <a href="formulario.php?id=<?= $estudante->idestudante ?>" class="btn btn-primary">
             <i class="fa-regular fa-pen-to-square"></i>
             Atualizar
           </a>
-          <a href ="excluir.php?id=<?=$noticia->idnoticia ?>" class="btn btn-danger">
+          <a href ="excluir.php?id=<?=$estudante->idestudante ?>" class="btn btn-danger">
           <i class="fa-regular fa-trash-can"></i>
             Excluir</a>
         </td>
