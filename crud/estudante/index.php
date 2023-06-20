@@ -21,7 +21,6 @@
           <th scope="col">Idade</th>
           <th scope="col">Curso</th>
           <th scope="col">Universidade</th>
-          <th scope="col">Foto</th>
           <th scope="col">Ações</th>
     </tr>
          </thead>
@@ -32,7 +31,6 @@
         <td><?= $estudante->idade ?></td>
         <td><?= $estudante->curso ?></td>
         <td><?= $estudante->universidade ?></td>
-        <td><img src="../upload/<?= $estudante->foto ?>" height="25px"></td>
         <td class="text-end" width="25%">
         <a href="formulario.php?id=<?= $estudante->idestudante ?>" class="btn btn-primary">
             <i class="fa-regular fa-pen-to-square"></i>

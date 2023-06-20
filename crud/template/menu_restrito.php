@@ -1,4 +1,4 @@
-<?php require"../estudante/consultar_categorias.php";?>
+<?php require "../estudante/consultar_categorias.php";?>
 
 <!-- Menu principal-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">  
@@ -15,7 +15,7 @@
                     <li class="nav-item">
                         <a class="nav-link" 
                         href="../site/index.php">
-                       Site
+                       
                 </a>
                     </li>
 

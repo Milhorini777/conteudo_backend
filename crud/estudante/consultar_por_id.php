@@ -24,7 +24,7 @@
 $resultados = $comando->get_result();
 
 //pega a primeira linha de resultado da consulta
-$nome = $resultados->fetch_object();
+$estudante = $resultados->fetch_object();
 
 
    }

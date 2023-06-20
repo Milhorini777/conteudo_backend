@@ -1,7 +1,7 @@
 <hr>
    <!-- Rodapé -->
      <footer class="bg-dark p-3 text-white text-center">
-            Meu site de notícias @ 2023
+            Site para cadastro de novos estudantes
      </footer>
    <!-- Final do rodapé -->
    
